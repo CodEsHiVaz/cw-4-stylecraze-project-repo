@@ -1,15 +1,18 @@
+/* ---------------------products starts---------------------------------- */
+
 .product_container {
-    
+  letter-spacing: 0.7px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
+  margin-top: 100px;
   gap: 20px;
-  font-family: 'Poppins',sans-serif;
+ 
+  font-family: "Poppins", sans-serif;
 }
 .product_container > div {
-  /* border: 1px solid red;  */
   width: 1280px;
   margin: auto;
 }
@@ -35,11 +38,10 @@
 .prdoducts_iteam {
   display: flex;
   width: 100%;
-  /* height: 600px; */
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: flex-start;
 
+  flex-direction: column;
+
+  align-items: flex-start;
 }
 .prdoducts_iteam > img {
   width: 100%;
@@ -51,15 +53,84 @@
   margin-bottom: -100px;
 }
 .prdoducts_iteam > div > span {
-
   color: #fe5c74;
   font-size: 14px;
 }
 .prdoducts_iteam > div > p {
-    height: 100px;
-    letter-spacing: .7px;
-    font-size: 18px;
-      box-sizing: border-box;
-  overflow:hidden;
- 
+  height: 100px;
+  letter-spacing: 0.7px;
+  font-size: 18px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* ---------------------products starts---------------------------------- */
+.productmain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.productchild {
+  width: 820px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: auto;
+   line-height: 26px;
+}
+.auther_span {
+  color: #fe5c74;
+}
+.topshortdescriptiondiv {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* margin: 10px; */
+  border: 1px double rgb(6, 2, 2);
+  margin: auto;
+}
+.tabular_product_presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tabular_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  /* align-items: center; */
+}
+.tabular_body > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #fe5c74;
+  cursor: pointer;
+}
+.tabular_body > div > div:first-child:hover {
+  text-decoration: underline;
+}
+.tabular_body > div > div:last-child {
+  background-color: #fba806;
+  padding: 10px;
+  color: black;
+  border-radius: 7px;
+}
+.tabular_body > div > div:last-child:hover{
+    text-decoration: underline rgb(0, 0, 0);
+}
+.tabular_product_presentation > div:first-child {
+  background-color: #d9edf7 !important;
+  height: 50px;
+  align-items: center;
+}
+.tabular_product_head {
+  display: flex;
+  padding: 0 15px;
+  justify-content: space-between;
 }
