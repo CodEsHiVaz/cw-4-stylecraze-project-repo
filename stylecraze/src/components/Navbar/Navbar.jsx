@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import styles from "../Navbar/navbar.module.css";
 
 const Navbar = () => {
@@ -8,6 +8,8 @@ const Navbar = () => {
     // console.log(val);
     navigator(`/category/${val}`);
   };
+  const loacation = useLocation();
+  // console.log(loacation.pathname);
   return (
     <div className={styles.navmain}>
       <div>
@@ -20,7 +22,11 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <ul className={styles.menulistul}>
+        <ul
+          className={
+            loacation.pathname == "/" ? styles.menulistul : styles.menulistul1
+          }
+        >
           <li onClick={() => navigationfunction("Makeup")}>MAKEUP </li>{" "}
           <li className={styles.ulpartition}>|</li>
           <li>HAIR CARE</li>

@@ -6,7 +6,7 @@ position: fixed;
 width: 100%;
 top:0px;
 background-color: #ffffff;
-z-index: 99;
+z-index: 1;
 }
 .navchild {
   width: 1280px;
@@ -28,6 +28,11 @@ z-index: 99;
   margin: auto;
   list-style-type: none;
   padding: 10px 0px 20px 0px;
+}
+.menulistul1{
+
+  display: none;
+
 }
 
 .menulistul > li {

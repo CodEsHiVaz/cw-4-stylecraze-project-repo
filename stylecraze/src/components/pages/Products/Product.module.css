@@ -9,7 +9,7 @@
   margin: auto;
   margin-top: 100px;
   gap: 20px;
- 
+
   font-family: "Poppins", sans-serif;
 }
 .product_container > div {
@@ -63,22 +63,27 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-/* ---------------------products starts---------------------------------- */
+.readmoreaction{
+    color: #fe5c74;
+    font-size: 13px;
+    cursor: pointer;
+}
+/* ---------------------product starts---------------------------------- */
 .productmain {
   width: 100%;
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .productchild {
   width: 820px;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: auto;
-   line-height: 26px;
+  line-height: 26px;
 }
 .auther_span {
   color: #fe5c74;
@@ -88,7 +93,7 @@
   flex-direction: column;
   text-align: left;
   /* margin: 10px; */
-  border: 1px double rgb(6, 2, 2);
+
   margin: auto;
 }
 .tabular_product_presentation {
@@ -121,16 +126,60 @@
   color: black;
   border-radius: 7px;
 }
-.tabular_body > div > div:last-child:hover{
-    text-decoration: underline rgb(0, 0, 0);
+.tabular_body > div > div:last-child:hover {
+  text-decoration: underline rgb(0, 0, 0);
 }
 .tabular_product_presentation > div:first-child {
   background-color: #d9edf7 !important;
   height: 50px;
+  margin-bottom: 20px;
   align-items: center;
 }
 .tabular_product_head {
   display: flex;
   padding: 0 15px;
   justify-content: space-between;
+}
+.productdctdiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* border: 1px double rgb(6, 2, 2); */
+text-align: left;
+}
+
+.product_and_Amoazon{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* margin:auto ; */
+  margin-bottom: 50px;
+
+}
+.product_and_Amoazon >div{
+display: flex;
+justify-content: center;
+/* align-items: center; */
+margin: auto;
+}
+.container_for_byon_amzon{
+  background-color: #fba806;
+  cursor: pointer;
+  padding: 15px 25px;
+}
+.productdct_head_indescription{
+  color: #fe5c74;
+ font-size: 19px;
+ 
+}
+.productdct_head_indescription1{
+  font-size: 19px;
+  font-weight: bold;
+  margin:50px 0px;
+}
+.reviews_head{
+  font-weight: bold;
+ font-size: 19px;
+  margin:20px 0px;
+
 }
