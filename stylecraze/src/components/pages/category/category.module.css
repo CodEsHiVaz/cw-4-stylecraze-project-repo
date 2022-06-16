@@ -1,0 +1,117 @@
+.categorymain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.categorychild {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 1280px;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.directory {
+  display: flex;
+  justify-content: left;
+  color: #fe5c74;
+  font-size: 13px;
+}
+.contents {
+  display: flex;
+  width: 1280px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.categoryheader {
+  font-weight: 400;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  margin: 30px auto 35px auto;
+  border-bottom: 2px solid #000000;
+}
+.subcats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+}
+.subcats div {
+  border: 2px solid #fe5c74;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 28px;
+}
+.subcats div:hover {
+  background-color: #fe5c74;
+  color: white;
+}
+.articlediv1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin: 50px auto  ;
+  background-color: #F9F9F9;
+}
+.aticlebigdescription{
+  background-repeat:repeat ;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  position: relative;
+  
+}
+.aticlebigdescription div{
+
+position: absolute;
+top: 400px;
+left: 10px;
+font-size: 13px;
+/* color: #fe5c74; */
+}
+.aticlebigdescription p{
+letter-spacing: .5px;
+}
+.aticlebigdescription h2{
+  font-weight: 300;
+  margin-bottom: -1px;
+}
+.continerfor3 {
+  display: grid;
+  width: 100%;
+ grid-template-columns: repeat(3,1fr);
+
+  gap: 30px;
+  /* height: 650px; */
+  /* border: 1px solid rgb(12, 208, 120); */
+}
+
+.containerfor3children {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* border: 1px solid rgb(0, 0, 0); */
+ 
+}
+.containerfor3children img {
+  width: 100%;
+  height: auto;
+}
+.gridauther{
+ color: #fe5c74;
+ margin-left: -290px;
+ font-size: 13px;
+}
+.containerfor3children h3{
+  text-align: left;
+}
+img{
+  border-radius: 8px;
+}

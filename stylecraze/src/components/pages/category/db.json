@@ -1,0 +1,199 @@
+{
+    "Makeup": {
+        "title": "MAKE UP",
+        "subtopics": [
+            {
+                "id": 1,
+                "name": "Mehandi Designs"
+            },
+            {
+                "id": 2,
+                "name": "Bridal Makeup"
+            },
+            {
+                "id": 3,
+                "name": "Celebrity Makeup"
+            },
+            {
+                "id": 4,
+                "name": "Nail Art"
+            },
+            {
+                "id": 5,
+                "name": "Makeup Ideas"
+            },
+            {
+                "id": 6,
+                "name": "Face Makeup"
+            },
+            {
+                "id": 7,
+                "name": "Lip Make Up"
+            },
+            {
+                "id": 8,
+                "name": "Eye Make Up"
+            }
+        ],
+        "articles": [
+            {
+                "id": 1,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/10/Top-10-Nail-Art-Spas-In-Kolkata-720x810.jpg",
+                "heading": "Top 10 Nail Art Spas In Kolkata",
+                "description": "Kolkata is a metropolitan city and has a definitive place on the Indian fashion map. The people of this city are fast evolving in all things. They are truly fashionable, and the appeal of nail art hasn’t passed them by. […]",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 2,
+                "heading": "Top 10 Nail Art Spas In Bangalore",
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/10/3077-Nail-Art-Spas-In-Chennai-ss.jpg.webp",
+                "auther": "BY SHALINI ROY"
+            },
+            {
+                "id": 3,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/10/Top-10-Nail-Art-Spas-In-Bangalore.jpg.webp",
+                "heading": "Top 10 Nail Art Spas In Chennai",
+                "description": "",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 4,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/10/Eye-Catching-Eid-Mehndi-Designs-You-Should-Try.jpg.webp",
+                "heading": "Top 10 Eye-Catching Eid Mehndi Designs You Should Try In 2022",
+                "description": "",
+                "auther": "BY SHALINI ROY"
+            },
+            {
+                "id": 5,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/09/750-Top-10-Lakme-Bridal-Salon-Packages-720x810.jpg.webp",
+                "heading": "Top 10 Lakme Bridal Salon Packages",
+                "description": "Indian weddings are stressful for the brides because they are worried about how to look stunningly picture-perfect at their wedding. The wardrobe and venue are sorted prior, but have you forgotten about your skin care and makeup? Book one of […]",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 6,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/07/11-Simple-And-Safe-Ways-To-Remove-Mehendi-At-Home-3.jpg.webp",
+                "heading": "11 Simple And Safe Ways To Remove Mehendi At Home",
+                "description": "",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 7,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/07/3283-10-Pictures-Of-Bipasha-Basu-Without-Makeup.jpg.webp",
+                "heading": "10 Pictures Of Bipasha Basu Without Makeup",
+                "description": "",
+                "auther": "BY SHALINI ROY"
+            },
+            {
+                "id": 8,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/03/41-Top-5-Keya-Seth%E2%80%99s-Bridal-Makeup-Packages.jpg.webp",
+                "heading": "Top 5 Keya Seth’s Bridal Makeup Packages",
+                "description": "",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 9,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/09/2073-Top-5-Naturals-Salon-Bridal-Makeup-Packages-is.jpg.webp",
+                "heading": "5 Types Of Bridal Makeup Packages To Choose From",
+                "description": "",
+                "auther": "BY NISHA BAGHADIA"
+            },
+            {
+                "id": 10,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/09/5-Amazing-Tips-To-Avoid-Lipstick-Stains-On-Glasses-And-Collars.jpg.webp",
+                "heading": "5 Amazing Ways To Prevent Lipstick Stains On Glasses & Collars",
+                "description": "",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 11,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/08/1167_DIY-%E2%80%93-How-To-Colour-Your-Lips-Pink-With-Beetroot_shutterstock_52284313.jpg.webp",
+                "heading": "DIY – How To Colour Your Lips Pink With Beetroot",
+                "description": "",
+                "auther": "BY SHALINI ROY"
+            },
+            {
+                "id": 12,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/01/3031-Top-10-Beautiful-Mehndi-Stickers-For-You-ss-720x810.jpg.webp",
+                "heading": "Top 10 Must-Try Latest Mehndi Stickers For 2022",
+                "description": "Be it your own wedding, a friend’s wedding, a festival, or a party, most girls love to get their hands and feet covered in beautiful mehndi patterns that are intricate and exquisite. Mehndi stickers are undoubtedly one of the best […]",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 13,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/04/Best-Mehndi-Henna-Kits-%E2%80%93-Our-Top-5.jpg.webp",
+                "heading": "Check Out The 5 Best Mehndi Henna Kits You Should Try In 2022",
+                "description": "",
+                "auther": "BY SHALINI ROY"
+            },
+            {
+                "id": 14,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/01/2796-10-Pictures-Of-Hansika-Motwani-Without-Makeup.jpg.webp",
+                "heading": "10 Pictures Of Hansika Motwani Without Makeup",
+                "description": "",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 15,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/01/2800-10-Most-Loved-Heart-Henna-Designs.jpg.webp",
+                "heading": "10 Best And Simple Heart Henna Designs To Try In 2022",
+                "description": "",
+                "auther": "BY NISHA BAGHADIA"
+            },
+            {
+                "id": 16,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/01/2298-10-Pictures-Of-Shruti-K-Hassan-Without-Makeup-720x810.jpg.webp",
+                "heading": "10 Pictures Of Shruti K Hassan Without Makeup",
+                "description": "Shruti K Hassan is the daughter of the very famous South Indian and Bollywood superstar, Kamal Hassan. Born on 28th January, 1986 to Kamal Hassan and Sarika Thakur in Chennai, her education and career took off in South India, much […]",
+                "auther": "BY SHALINI ROY"
+            },
+            {
+                "id": 17,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2014/01/10-Pictures-Of-Mila-Kunis-Without-Makeup.jpg.webp",
+                "heading": "10 Pictures Of Mila Kunis Without Makeup",
+                "description": "",
+                "auther": "BY JYOTSANA RAO"
+            },
+            {
+                "id": 18,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/12/1221_Top-10-Ways-To-Entertain-Your-Guests-During-Mehndi-Ceremony_102231016.jpg_1.jpg.webp",
+                "heading": "Top 10 Ways To Entertain Your Guests During Mehndi Ceremony",
+                "description": "",
+                "auther": "BY NISHA BAGHADIA"
+            },
+            {
+                "id": 19,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/12/1975-Pictures-Of-Nithya-Menon-Without-Makeup.jpg.webp",
+                "heading": "10 Pictures Of Nithya Menon Without Makeup",
+                "description": "",
+                "auther": "BY SHALINI ROY"
+            },
+            {
+                "id": 20,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/11/2110-10-Pictures-Of-Madhuri-Dixit-Without-Makeup.jpg.webp",
+                "heading": "10 Pictures Of Madhuri Dixit Without Makeup",
+                "description": "",
+                "auther": "BY NISHA BAGHADIA"
+            },
+            {
+                "id": 21,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/11/Top-10-Made-In-India-Cosmetic-Brands.jpg.webp",
+                "heading": "Top 10 Made In India Cosmetic Brands",
+                "description": "",
+                "auther": "BY SHALINI ROY"
+            },
+            {
+                "id": 22,
+                "image": "https://cdn2.stylecraze.com/wp-content/uploads/2013/07/10-Pictures-Of-Neha-Sharma-Without-Makeup.jpg.webp",
+                "heading": "10 Pictures Of Neha Sharma Without Makeup",
+                "description": "",
+                "auther": "BY NISHA BAGHADIA"
+            }
+        ]
+    },
+    "Haircare": {
+        "title": "Haircare",
+        "subtopics": [],
+        "articles": []
+    }
+}

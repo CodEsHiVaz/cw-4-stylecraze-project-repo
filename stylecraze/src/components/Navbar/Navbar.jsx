@@ -1,7 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "../Navbar/navbar.module.css";
+
 const Navbar = () => {
+  const navigator = useNavigate();
+  const navigationfunction = (val) => {
+    // console.log(val);
+    navigator(`/category/${val}`);
+  };
   return (
     <div className={styles.navmain}>
       <div>
@@ -15,11 +21,16 @@ const Navbar = () => {
           </Link>
         </div>
         <ul className={styles.menulistul}>
-          <li>MAKEUP </li> <li className={styles.ulpartition}>|</li>
-          <li>HAIR CARE </li> <li className={styles.ulpartition}>|</li>
+          <li onClick={() => navigationfunction("Makeup")}>MAKEUP </li>{" "}
+          <li className={styles.ulpartition}>|</li>
+          <li>HAIR CARE</li>
+          <li className={styles.ulpartition}>|</li>
           <li>SKIN CARE </li> <li className={styles.ulpartition}>|</li>
           <li>HAIRSTYLES </li> <li className={styles.ulpartition}>|</li>
-          <li>HEALTH & WELLNESS </li> <li className={styles.ulpartition}>|</li>
+          <li onClick={() => navigationfunction("Health&wellness")}>
+            HEALTH & WELLNESS{" "}
+          </li>{" "}
+          <li className={styles.ulpartition}>|</li>
           <li>NEWS </li> <li className={styles.ulpartition}>|</li>
           <li>TOOLS </li> <li className={styles.ulpartition}>|</li>
           <li>
