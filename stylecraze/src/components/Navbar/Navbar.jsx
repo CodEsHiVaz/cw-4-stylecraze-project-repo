@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import styles from "../Navbar/navbar.module.css";
-
+import { ThemeContext } from "../ThemeContext/ThemeContext";
+import "./Theme.css";
 const Navbar = () => {
+  const { themetogler } = useContext(ThemeContext);
   const navigator = useNavigate();
   const navigationfunction = (val) => {
     // console.log(val);
@@ -21,6 +23,10 @@ const Navbar = () => {
               alt="logo"
             />
           </Link>
+          <label className="switch">
+            <input type="checkbox" onChange={themetogler} />
+            <span className="slider round"></span>
+          </label>
         </div>
         <ul
           className={

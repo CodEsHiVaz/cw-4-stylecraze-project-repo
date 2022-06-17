@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Product = () => {
   document.title = "StyleCraze-clone/Product";
   const [product, setproduct] = useState([]);
+     window.scrollTo(0, 0);
   const byonamazon = () => {
     window.open(
       "https://www.amazon.com/dp/B01AE1EY5Q?tag=tsr-mkp-nailpolish-skintones-20&linkCode=ogi&th=1&psc=1"

@@ -7,6 +7,7 @@ import InPress from "./InPress";
 import Medreviews from "./Medreviews";
 import Testimonials from "./Testimonials";
 const Home = () => {
+  window.scrollTo(0, 0);
   let mkupdata = data.makeup[0];
   let hairstyle = data.hairstyle[0];
   let helthnwelness = data.helthnwelness[0];

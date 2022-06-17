@@ -11,7 +11,7 @@ const Article = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     axios
-      .get(`https://my-api-hosting-for-stlcrz.herokuapp.com/articles/${id}`)
+      .get(`https://stylecraze-hosting.herokuapp.com/articles/${id}`)
       .then((r) => setarticle(r.data));
   }, [id]);
   console.log(article);

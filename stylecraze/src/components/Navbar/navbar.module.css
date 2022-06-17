@@ -5,7 +5,7 @@
 position: fixed;
 width: 100%;
 top:0px;
-background-color: #ffffff;
+background-color: inherit;
 z-index: 1;
 }
 .navchild {

@@ -9,8 +9,9 @@ const Products = () => {
     const [productsdata, setproductsdata] = useState([]);
     const [tempdata, settempdata] = useState([]);
     useEffect(() => {
+         window.scrollTo(0, 0);
       axios
-        .get(`https://my-api-hosting-for-stlcrz.herokuapp.com/productsdata`)
+        .get(`https://stylecraze-hosting.herokuapp.com/productsdata`)
         .then((r) => setproductsdata(r.data));
     }, []);
 
@@ -19,7 +20,7 @@ const Products = () => {
         tempdata.filter((elem) => elem.category === event.target.value)
       );
       axios
-        .get(`https://my-api-hosting-for-stlcrz.herokuapp.com/productsdata`)
+        .get(`https://stylecraze-hosting.herokuapp.com/productsdata`)
         .then((r) => settempdata(r.data));
     };
 

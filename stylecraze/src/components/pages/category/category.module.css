@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-    margin-top: 50px;
+    margin-top: 37px;
 }
 .categorychild {
   display: flex;
@@ -29,9 +29,9 @@
 .categoryheader {
   font-weight: 400;
   font-size: 35px;
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
   margin: 30px auto 35px auto;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid ;
 }
 .subcats {
   width: 100%;
@@ -59,7 +59,7 @@
   gap: 20px;
   width: 100%;
   margin: 50px auto  ;
-  background-color: #F9F9F9;
+  /* background-color: #F9F9F9; */
 }
 .aticlebigdescription{
   background-repeat:repeat ;

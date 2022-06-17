@@ -14,19 +14,19 @@ const Category = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     axios
-      .get(`https://my-api-hosting-for-stlcrz.herokuapp.com/${val}`)
+      .get(`https://stylecraze-hosting.herokuapp.com/${val}`)
       .then((r) => setcat(r.data.title));
     axios
-      .get(`https://my-api-hosting-for-stlcrz.herokuapp.com/${val}`)
+      .get(`https://stylecraze-hosting.herokuapp.com/${val}`)
       .then((r) => setarticales(r.data.articles));
     axios
-      .get(`https://my-api-hosting-for-stlcrz.herokuapp.com/${val}`)
+      .get(`https://stylecraze-hosting.herokuapp.com/${val}`)
       .then((r) => setsubtop(r.data.subtopics));
     axios
-      .get(`https://my-api-hosting-for-stlcrz.herokuapp.com/${val}`)
+      .get(`https://stylecraze-hosting.herokuapp.com/${val}`)
       .then((r) => setarticales1(r.data.articles[0]));
     axios
-      .get(`https://my-api-hosting-for-stlcrz.herokuapp.com/${val}`)
+      .get(`https://stylecraze-hosting.herokuapp.com/${val}`)
       .then((r) => setarticales4(r.data.articles[4]));
   }, [val]);
   // console.log(img1);
